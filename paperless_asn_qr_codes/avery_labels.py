@@ -30,6 +30,15 @@ class LabelInfo:
 
 
 labelInfo: dict[str, LabelInfo] = {
+    # Labels from Amazon https://www.amazon.ca/dp/B014IPO134
+    "victor1": LabelInfo(
+        labels_horizontal=7,
+        labels_vertical=22,
+        label_size=(25.4 * mm, 9 * mm),
+        gutter_size=(3 * mm, 9),
+        margin=(7 * mm, 14 * mm),
+        pagesize=A4,
+    ),     
     "averyL4731": LabelInfo(
         labels_horizontal=7,
         labels_vertical=27,
